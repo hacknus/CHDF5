@@ -28,6 +28,6 @@ module CHDF5 [system] {
     header "/opt/homebrew/include/H5DOpublic.h"
     header "/opt/homebrew/include/H5Ppublic.h"
     header "/opt/homebrew/include/H5DSpublic.h"
-    link "libhdf5"
+    link "hdf5"
     export *
 }
