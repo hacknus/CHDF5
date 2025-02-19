@@ -7,6 +7,6 @@ let package = Package(
         .library(name: "CHDF5", targets: ["CHDF5"]),
     ],
     targets: [
-        .systemLibrary(name: "CHDF5", pkgConfig: "hdf5", providers: [.brew(["hdf5"])]),
+        .systemLibrary(name: "CHDF5", pkgConfig: "libhdf5", providers: [.brew(["hdf5"])]),
     ]
 )
