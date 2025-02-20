@@ -1,0 +1,5 @@
+module CHDF5 {
+    umbrella header "H5public.h"
+    link "hdf5"
+    export *
+}
