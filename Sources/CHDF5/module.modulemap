@@ -1,5 +1,5 @@
 module CHDF5 {
-    umbrella header "H5public.h"
+    umbrella header "/opt/homebrew/opt/hdf5/include/H5Spublic.h"
     link "hdf5"
     export *
 }
